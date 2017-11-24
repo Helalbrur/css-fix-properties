@@ -1,0 +1,17 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+/*	background: lightblue;*/
+}
+#box{
+	margin-left: 300px;
+	margin-top: 50px;
+	border: 5px solid #eee;
+	width: 400px;
+	height: 200px;
+	background: lightgreen;
+	box-sizing: initial;
+}

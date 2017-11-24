@@ -1,0 +1,93 @@
+body{
+	margin: 10px;
+	background: lightblue;
+}
+.menubar{
+	background: #eee;
+	margin: 0px auto;
+	text-align: center;
+}
+.main{
+	width: 1200px;
+	background: #ccc;
+}
+.fixmain:before ,.fixmain:after{
+	content: " ";
+	display: table;
+}
+
+.fixmain:after{
+	clear: both;
+}
+.sidebar{
+	width: 400px;
+	float: left;
+	background: red;
+	text-align: center;
+
+}
+.sidebar>ul{
+	list-style: none;
+}
+.sidebar>ul>li>a:hover{
+	text-align:center;
+	padding: 10px;
+	text-decoration: none;
+	background: white;
+}
+.sidebar>ul>li>a{
+	text-align:center;
+	text-decoration: none;
+	background: blue;
+}
+.content{
+	width: 800px;
+	background: lightgreen;
+	margin: 0px auto;
+	float: left;
+}
+
+.fixcontent:before ,.fixcontent:after{
+	content: " ";
+	display: table;
+}
+.fixcontent:after{
+	clear: both;
+}
+.box{
+	background: #ccc;
+	width: 350px;
+	height: 250px;
+	border: 5px solid tomato;
+	margin: 0px auto;
+	box-sizing: border-box;
+	text-align: center;
+	/*float: left;*/
+}
+.last{
+	width: 800px;
+	border: 1px ;
+	background: lightgreen;
+	float: left;
+}
+.fixlast:before ,.fixlast:after{
+	content: " ";
+	display: table;
+}
+.fixlast:after{
+	clear: both;
+}
+.first{
+	width: 398px;
+	background: lightyellow;
+	float: left;
+	text-align: center;
+
+}
+.second{
+	width: 398px;
+	background: #eee;
+	float: right;
+	text-align: center;
+}
+

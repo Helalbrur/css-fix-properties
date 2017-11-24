@@ -1,0 +1,19 @@
+#Float properties:
+1.left
+2.right
+#Box-sizing properties:
+1. initial
+2. inherit
+3. content-box
+4. border-box
+
+#Clear/fix properties:
+1.both
+2.left
+3.right
+4.inherit
+5.initial
+6.unset
+7.none
+
+

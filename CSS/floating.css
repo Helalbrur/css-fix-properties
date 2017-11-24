@@ -1,0 +1,41 @@
+/*.sidebar{
+	width: 200px;
+	height: ;
+	background: #eee;
+	float: left;
+}*/
+.main{
+	width: 800px;
+	/*height: 200px;*/
+	background: #ccc;
+	/*float: left;*/
+}
+.clearfix:before, .clearfix:after{
+	content: " ";
+	display: table;
+
+}
+.clearfix:after{
+	clear: both;
+}
+
+.child1{
+	width: 200px;
+	height: 200px
+	background: red;
+	float: left;
+}
+.child2{
+	width: 200px;
+	height: 200px;
+	background: red;
+	float: right;
+}
+.clearfix{
+	*zoom : 1;
+}
+/*.clear{
+	content: " ";
+	clear: both;
+	display: table;
+}*/
